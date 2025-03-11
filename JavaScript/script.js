@@ -43,9 +43,12 @@
 // var name;
 // console.log(name);
 
-const x = 5;
-{
-  const x = 10;
-  console.log(x);
-}
-console.log(x);
+// const x = 5;
+// {
+//   const x = 10;
+//   console.log(x);
+// }
+// console.log(x);
+
+let x = 5;
+x = 10;

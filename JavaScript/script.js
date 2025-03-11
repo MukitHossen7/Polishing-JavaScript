@@ -6,3 +6,9 @@ console.log("Hello");
 
 // let x => Declear
 // = 5 => assign
+
+// JavaScript Variables (var)
+var name = "Mukit";
+var name = "Sifat";
+console.log(name);
+console.log(name);

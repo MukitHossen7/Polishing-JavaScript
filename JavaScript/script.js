@@ -8,8 +8,12 @@ console.log("Hello");
 // = 5 => assign
 
 // JavaScript Variables (var)
-var name = "Mukit";
-var name = "Sifat";
-name = "Joy";
-console.log(name);
+// var name = "Mukit";
+// var name = "Sifat";
+// name = "Joy";
+// console.log(name);
+// console.log(name);
+
+var name;
+name = "Mukit";
 console.log(name);

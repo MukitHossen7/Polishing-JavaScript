@@ -18,9 +18,27 @@
 // name = "Mukit";
 // console.log(name);
 
-sum();
-function sum() {
-  var x = 5;
-  console.log(x);
-}
-console.log(x);
+// sum();
+// function sum() {
+//   var x = 5;
+//   console.log(x);
+// }
+// console.log(x);
+
+// let x = 5;
+// x = 6;
+// console.log(x);
+
+// {
+//   let x = 5;
+//   var y = 10;
+//   console.log(x);
+// }
+// // console.log(x);
+// console.log(y);
+
+// let name;
+// name = undefined;
+name = "Mukit";
+var name;
+console.log(name);

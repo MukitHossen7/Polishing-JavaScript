@@ -58,3 +58,10 @@ name();
 function name() {
   console.log("Hello");
 }
+let person = {
+  name: "Mukit",
+  age: 25,
+  greet: function () {
+    console.log("Hello, " + this.name);
+  },
+};

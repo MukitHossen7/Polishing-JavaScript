@@ -39,6 +39,13 @@
 
 // let name;
 // name = undefined;
-name = "Mukit";
-var name;
-console.log(name);
+// name = "Mukit";
+// var name;
+// console.log(name);
+
+const x = 5;
+{
+  const x = 10;
+  console.log(x);
+}
+console.log(x);

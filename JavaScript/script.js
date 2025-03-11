@@ -50,6 +50,11 @@
 // }
 // console.log(x);
 
-let x = 5;
-x = 10;
-console.log(typeof undefined);
+// let x = 5;
+// x = 10;
+// console.log(typeof undefined);
+
+name();
+function name() {
+  console.log("Hello");
+}

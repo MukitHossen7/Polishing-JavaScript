@@ -54,10 +54,10 @@
 // x = 10;
 // console.log(typeof undefined);
 
-name();
-function name() {
-  console.log("Hello");
-}
+// name();
+// function name() {
+//   console.log("Hello");
+// }
 let person = {
   name: "Mukit",
   age: 25,
@@ -65,3 +65,5 @@ let person = {
     console.log("Hello, " + this.name);
   },
 };
+
+console.log(person);

@@ -73,11 +73,14 @@
 // let y = new String("Mukit");
 // console.log(y);
 
-let name = "Mukit";
-console.log(name.length);
-let text = "We,are,the,so-called,Vikings,from,the,north";
+// let name = "Mukit";
+// console.log(name.length);
+// let text = "We,are,the,so-called,Vikings,from,the,north";
 // console.log(text.slice(0, 2));
 // console.log(text.substring(0, 2));
 // console.log(text.split(","));
 // console.log(text.includes("Mukit"));
-console.log(text.concat(" Vikings"));
+// console.log(text.concat(" Vikings"));
+
+let x = "Mukit" * "5";
+console.log(x);

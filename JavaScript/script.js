@@ -58,12 +58,20 @@
 // function name() {
 //   console.log("Hello");
 // }
-let person = {
-  name: "Mukit",
-  age: 25,
-  greet: function () {
-    console.log("Hello, " + this.name);
-  },
-};
+// let person = {
+//   name: "Mukit",
+//   age: 25,
+//   greet: function () {
+//     console.log("Hello, " + this.name);
+//   },
+// };
 
-console.log(person);
+// console.log(person);
+
+// let x = "Mukit";
+// console.log(x);
+// let y = new String("Mukit");
+// console.log(y);
+
+let name = "Mukit";
+console.log(name.length);

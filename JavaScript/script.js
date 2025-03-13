@@ -75,5 +75,7 @@
 
 let name = "Mukit";
 console.log(name.length);
-let text = "We are the so-called Vikings from the north.";
-console.log(text.slice(0, 2));
+let text = "We,are,the,so-called,Vikings,from,the,north.";
+// console.log(text.slice(0, 2));
+// console.log(text.substring(0, 2));
+console.log(text.split(","));

@@ -89,3 +89,5 @@ console.log(isNaN("Mukit"));
 console.log(isNaN("5"));
 console.log(isNaN(5));
 console.log(typeof NaN);
+console.log(5 / 0);
+console.log(typeof Infinity);

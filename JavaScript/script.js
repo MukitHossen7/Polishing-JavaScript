@@ -85,9 +85,19 @@
 // let x = "Mukit" * "5";
 // console.log(x);
 
-console.log(isNaN("Mukit"));
-console.log(isNaN("5"));
-console.log(isNaN(5));
-console.log(typeof NaN);
-console.log(5 / 0);
-console.log(typeof Infinity);
+// console.log(isNaN("Mukit"));
+// console.log(isNaN("5"));
+// console.log(isNaN(5));
+// console.log(typeof NaN);
+// console.log(5 / 0);
+// console.log(typeof Infinity);
+
+// let x = 5;
+// console.log(typeof x.toString());
+// let x = 50.159655;
+// console.log(x.toFixed(0));
+
+// let x = "Mukit";
+// console.log(Number(x));
+let x = 50.44545;
+console.log(parseInt(x));

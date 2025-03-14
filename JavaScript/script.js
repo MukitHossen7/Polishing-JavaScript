@@ -82,5 +82,10 @@
 // console.log(text.includes("Mukit"));
 // console.log(text.concat(" Vikings"));
 
-let x = "Mukit" * "5";
-console.log(x);
+// let x = "Mukit" * "5";
+// console.log(x);
+
+console.log(isNaN("Mukit"));
+console.log(isNaN("5"));
+console.log(isNaN(5));
+console.log(typeof NaN);

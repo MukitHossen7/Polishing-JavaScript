@@ -153,4 +153,13 @@
 // console.log(Math.round(5.6));
 // console.log(Math.ceil(5.4));
 // console.log(Math.floor(5.9));
-console.log(Math.abs(-5.5));
+// console.log(Math.abs(-5.5));
+
+const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+function countVowels(str) {
+  const strArr = str.split("");
+  const value = strArr.filter((value) => vowels.includes(value));
+  console.log(value);
+}
+countVowels("I love JavaScript");

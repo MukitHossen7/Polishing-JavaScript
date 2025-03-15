@@ -142,8 +142,11 @@
 // }
 // console.log(minNumber(arr));
 
-const arr = [50, 100, 150, 200, 250, 300, 5];
+// const arr = [50, 100, 150, 200, 250, 300, 5];
 
-const newArr = arr.find((value) => value > 500);
-console.log(newArr);
-console.log(arr);
+// const newArr = arr.find((value) => value > 500);
+// console.log(newArr);
+// console.log(arr);
+
+const random = Math.floor(Math.random() * 10);
+console.log(random);

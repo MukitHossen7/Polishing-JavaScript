@@ -104,4 +104,7 @@
 
 const arr = [1, 2, 3, 4, 5, 6];
 console.log(arr);
-console.log(arr[arr.length - 1]);
+console.log(arr.toString());
+// console.log(typeof arr);
+// console.log(Array.isArray(arr));
+// console.log(arr[arr.length - 1]);

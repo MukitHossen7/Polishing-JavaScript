@@ -155,11 +155,27 @@
 // console.log(Math.floor(5.9));
 // console.log(Math.abs(-5.5));
 
-const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+// const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
 
-function countVowels(str) {
-  const strArr = str.split("");
-  const value = strArr.filter((value) => vowels.includes(value));
-  console.log(value);
-}
-countVowels("I love JavaScript");
+// function countVowels(str) {
+//   const strArr = str.split("");
+//   const value = strArr.filter((value) => vowels.includes(value));
+//   console.log(value);
+// }
+// countVowels("I love JavaScript");
+
+const numbers = [1, 4, 5, 5, 6, 7, 6, 8, 9, 10, 4];
+// const duplicated = numbers.filter((value, index) => {
+//   return numbers.indexOf(value) !== index;
+// });
+// console.log(duplicated);
+// function findDuplicate(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//       if (arr[i] === arr[j] && i !== j) {
+//         console.log(arr[i]);
+//       }
+//     }
+//   }
+// }
+// findDuplicate(numbers);

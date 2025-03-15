@@ -148,5 +148,9 @@
 // console.log(newArr);
 // console.log(arr);
 
-const random = Math.floor(Math.random() * 10);
-console.log(random);
+// const random = Math.floor(Math.random() * 10);
+// console.log(random);
+// console.log(Math.round(5.6));
+// console.log(Math.ceil(5.4));
+// console.log(Math.floor(5.9));
+console.log(Math.abs(-5.5));

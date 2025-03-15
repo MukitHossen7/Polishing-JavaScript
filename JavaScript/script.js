@@ -115,7 +115,7 @@
 // console.log(arr1);
 // console.log(arr);
 
-const arr = [50, 100, 150, 200, 250, 300, 5];
+// const arr = [50, 100, 150, 200, 250, 300, 5];
 // console.log(arr);
 // console.log(arr.sort());
 // const arr1 = arr.sort((a, b) => a - b);
@@ -125,19 +125,25 @@ const arr = [50, 100, 150, 200, 250, 300, 5];
 // const arr2 = arr.sort((a, b) => b - a);
 // console.log(arr2);
 
-const min = Math.min(...arr);
-console.log(min);
+// const min = Math.min(...arr);
+// console.log(min);
 
-function minNumber(arr) {
-  // const min = arr.sort((a, b) => a - b)[0];
-  // return min;
-  let minimum = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    let min = arr[i];
-    if (min < minimum) {
-      minimum = min;
-    }
-  }
-  return minimum;
-}
-console.log(minNumber(arr));
+// function minNumber(arr) {
+//   // const min = arr.sort((a, b) => a - b)[0];
+//   // return min;
+//   let minimum = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     let min = arr[i];
+//     if (min < minimum) {
+//       minimum = min;
+//     }
+//   }
+//   return minimum;
+// }
+// console.log(minNumber(arr));
+
+const arr = [50, 100, 150, 200, 250, 300, 5];
+
+const newArr = arr.find((value) => value > 500);
+console.log(newArr);
+console.log(arr);

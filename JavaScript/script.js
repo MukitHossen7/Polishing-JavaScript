@@ -102,9 +102,23 @@
 // let x = 50.44545;
 // console.log(parseInt(x));
 
-const arr = [1, 2, 3, 4, 5, 6];
-console.log(arr);
-console.log(arr.toString());
+// const arr = [1, 2, 3, 4, 5, 6];
+// console.log(arr);
+// console.log(arr.toString());
 // console.log(typeof arr);
 // console.log(Array.isArray(arr));
 // console.log(arr[arr.length - 1]);
+
+// const arr = ["Mukit", "Sifat", "Joy", "Rakib", "Rakib"];
+// console.log(arr);
+// const arr1 = arr.sort();
+// console.log(arr1);
+// console.log(arr);
+
+const arr = [50, 100, 150, 200, 250, 300, 5];
+console.log(arr);
+console.log(arr.sort());
+const arr1 = arr.sort((a, b) => a - b);
+console.log(arr1);
+const arr2 = arr.sort((a, b) => b - a);
+console.log(arr2);

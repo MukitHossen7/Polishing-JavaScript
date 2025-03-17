@@ -164,7 +164,7 @@
 // }
 // countVowels("I love JavaScript");
 
-const numbers = [1, 4, 5, 5, 6, 7, 6, 8, 9, 10, 4];
+// const numbers = [1, 4, 5, 5, 6, 7, 6, 8, 9, 10, 4];
 // const duplicated = numbers.filter((value, index) => {
 //   return numbers.indexOf(value) !== index;
 // });

@@ -180,9 +180,20 @@
 // }
 // findDuplicate(numbers);
 
-let x = 18;
-if (x > 18) {
-  console.log("You are eligible for vote");
-} else {
-  console.log("You are not eligible for vote");
+// let x = 18;
+// if (x > 18) {
+//   console.log("You are eligible for vote");
+// } else {
+//   console.log("You are not eligible for vote");
+// }
+
+// var i = 5;
+// for (var i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// console.log("This is outside " + i);
+let i = 5;
+for (let i = 0; i < 10; i++) {
+  console.log(i);
 }
+console.log("This is outside " + i);

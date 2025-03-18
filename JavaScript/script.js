@@ -198,13 +198,22 @@
 // }
 // console.log("This is outside " + i);
 
-const student = {
-  name: "Mukit",
-  age: 22,
-  course: "MERN Stack",
-};
-console.log(student);
-for (let studentKey in student) {
-  // console.log(studentKey);
-  console.log(student[studentKey]);
+// const student = {
+//   name: "Mukit",
+//   age: 22,
+//   course: "MERN Stack",
+// };
+// console.log(student);
+// for (let studentKey in student) {
+//   // console.log(studentKey);
+//   console.log(student[studentKey]);
+// }
+
+const messages = "Hello, I am Mukit";
+for (let message of messages) {
+  console.log(message);
+}
+const arr = [1, 2, 3, 4, 5, 6];
+for (let value of arr) {
+  console.log(value);
 }

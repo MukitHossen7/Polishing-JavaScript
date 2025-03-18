@@ -232,7 +232,20 @@
 //   }
 //   console.log(i);
 // }
-const arr = [1, 2, 3, 4, 5, 6, 2, 3];
-console.log(arr);
-const newArr = new Set([...arr]);
-console.log(newArr);
+// const arr = [1, 2, 3, 4, 5, 6, 2, 3];
+// console.log(arr);
+// const newArr = new Set([...arr]);
+// console.log(newArr);
+
+const map = new Map([
+  [25, "Mukit"],
+  ["age", 22],
+  ["course", "MERN Stack"],
+]);
+console.log(map);
+const obj = {
+  name: "Mukit",
+  age: 22,
+  course: "MERN Stack",
+};
+console.log(obj);

@@ -209,11 +209,19 @@
 //   console.log(student[studentKey]);
 // }
 
-const messages = "Hello, I am Mukit";
-for (let message of messages) {
-  console.log(message);
-}
-const arr = [1, 2, 3, 4, 5, 6];
-for (let value of arr) {
-  console.log(value);
+// const messages = "Hello, I am Mukit";
+// for (let message of messages) {
+//   console.log(message);
+// }
+// const arr = [1, 2, 3, 4, 5, 6];
+// for (let value of arr) {
+//   console.log(value);
+// }
+
+// const arr = [1, 2, 3, 4, 5, 6];
+const message = "Hello, I am Mukit";
+let i = 0;
+while (i < message.length) {
+  console.log(message[i]);
+  i++;
 }

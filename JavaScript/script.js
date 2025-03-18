@@ -192,8 +192,19 @@
 //   console.log(i);
 // }
 // console.log("This is outside " + i);
-let i = 5;
-for (let i = 0; i < 10; i++) {
-  console.log(i);
+// let i = 5;
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// console.log("This is outside " + i);
+
+const student = {
+  name: "Mukit",
+  age: 22,
+  course: "MERN Stack",
+};
+console.log(student);
+for (let studentKey in student) {
+  // console.log(studentKey);
+  console.log(student[studentKey]);
 }
-console.log("This is outside " + i);

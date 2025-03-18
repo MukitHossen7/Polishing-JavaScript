@@ -226,9 +226,13 @@
 //   i++;
 // }
 
-for (let i = 0; i < 10; i++) {
-  if (i === 5) {
-    continue;
-  }
-  console.log(i);
-}
+// for (let i = 0; i < 10; i++) {
+//   if (i === 5) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+const arr = [1, 2, 3, 4, 5, 6, 2, 3];
+console.log(arr);
+const newArr = new Set([...arr]);
+console.log(newArr);

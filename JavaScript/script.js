@@ -219,9 +219,16 @@
 // }
 
 // const arr = [1, 2, 3, 4, 5, 6];
-const message = "Hello, I am Mukit";
-let i = 0;
-while (i < message.length) {
-  console.log(message[i]);
-  i++;
+// const message = "Hello, I am Mukit";
+// let i = 0;
+// while (i < message.length) {
+//   console.log(message[i]);
+//   i++;
+// }
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
 }

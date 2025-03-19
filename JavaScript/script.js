@@ -237,15 +237,17 @@
 // const newArr = new Set([...arr]);
 // console.log(newArr);
 
-const map = new Map([
-  [25, "Mukit"],
-  ["age", 22],
-  ["course", "MERN Stack"],
-]);
-console.log(map);
-const obj = {
-  name: "Mukit",
-  age: 22,
-  course: "MERN Stack",
-};
-console.log(obj);
+// const map = new Map([
+//   [25, "Mukit"],
+//   ["age", 22],
+//   ["course", "MERN Stack"],
+// ]);
+// console.log(map);
+// const obj = {
+//   name: "Mukit",
+//   age: 22,
+//   course: "MERN Stack",
+// };
+// console.log(obj);
+
+console.log(Number(" "));

@@ -253,3 +253,14 @@
 console.log(Number(" "));
 console.log(Number(" "));
 console.log(Number(" "));
+
+try {
+  console.log("Hello");
+  if (true) {
+    throw new Error("This is an error");
+  }
+} catch (error) {
+  console.log(error);
+} finally {
+  console.log("Finally");
+}

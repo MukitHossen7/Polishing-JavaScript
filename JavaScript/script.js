@@ -250,17 +250,43 @@
 // };
 // console.log(obj);
 
-console.log(Number(" "));
-console.log(Number(" "));
-console.log(Number(" "));
+// console.log(Number(" "));
+// console.log(Number(" "));
+// console.log(Number(" "));
 
-try {
-  console.log("Hello");
-  if (true) {
-    throw new Error("This is an error");
-  }
-} catch (error) {
-  console.log(error);
-} finally {
-  console.log("Finally");
+// try {
+//   console.log("Hello");
+//   if (true) {
+//     throw new Error("This is an error");
+//   }
+// } catch (error) {
+//   console.log(error);
+// } finally {
+//   console.log("Finally");
+// }
+
+// let x = "hello";
+// var name = "Mukit";
+
+// {
+//   let y = 10;
+//   console.log(y);
+// }
+// console.log(y);
+
+// function sum() {
+//   var x = 5;
+//   let y = 10;
+//   console.log(y);
+//   console.log(x);
+// }
+
+// sum();
+// console.log(x);
+// console.log(y);
+
+if (true) {
+  let x = 5;
+  console.log(x);
 }
+console.log(x);

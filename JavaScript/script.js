@@ -307,13 +307,25 @@
 //   console.log("Hello");
 // };
 
-console.log(this);
+// console.log(this);
+// const person = {
+//   firstName: "Mukit",
+//   lastName: "Hossen",
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+// console.log(person);
+// console.log(person.fullName());
+
 const person = {
-  firstName: "Mukit",
-  lastName: "Hossen",
   fullName: function () {
     return this.firstName + " " + this.lastName;
   },
 };
-console.log(person);
-console.log(person.fullName());
+const person1 = {
+  firstName: "Mukit",
+  lastName: "Hossen",
+};
+
+console.log(person.fullName.call(person1));

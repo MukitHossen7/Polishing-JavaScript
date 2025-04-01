@@ -297,3 +297,8 @@
 // console.log(name);
 // let name = "mukit";
 // console.log(name);
+
+name();
+function name() {
+  console.log("Hello");
+}

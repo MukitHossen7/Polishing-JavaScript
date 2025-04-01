@@ -294,5 +294,6 @@
 // console.log(name);
 // name = "Mukit";
 // console.log(name);
-
-let;
+// console.log(name);
+// let name = "mukit";
+// console.log(name);

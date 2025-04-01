@@ -302,7 +302,18 @@
 // function name() {
 //   console.log("Hello");
 // }
-name();
-var name = () => {
-  console.log("Hello");
+// name();
+// var name = () => {
+//   console.log("Hello");
+// };
+
+console.log(this);
+const person = {
+  firstName: "Mukit",
+  lastName: "Hossen",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
 };
+console.log(person);
+console.log(person.fullName());

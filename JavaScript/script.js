@@ -352,14 +352,28 @@
 
 // person.greet(); // Output: undefined
 
-const person = {
-  age: 25,
-  greet: function () {
-    const innerFunction = () => {
-      console.log(this.age);
-    };
-    innerFunction();
-  },
-};
+// const person = {
+//   age: 25,
+//   greet: function () {
+//     const innerFunction = () => {
+//       console.log(this.age);
+//     };
+//     innerFunction();
+//   },
+// };
 
-person.greet(); // Output: Mukit
+// person.greet(); // Output: Mukit
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  greet() {
+    console.log(this.name + " " + this.age);
+  }
+}
+const mukit = new Person("Mukit", 20);
+const raje = new Person("raju", 25);
+mukit.greet();
+raje.greet();

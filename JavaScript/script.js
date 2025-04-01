@@ -318,14 +318,48 @@
 // console.log(person);
 // console.log(person.fullName());
 
+// const person = {
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+// const person1 = {
+//   firstName: "Mukit",
+//   lastName: "Hossen",
+// };
+
+// console.log(person.fullName.call(person1));
+
+// const name = () => {
+//   console.log(this);
+// };
+// name();
+
+// const person = {
+//   name: "mukit",
+//   greet: () => {
+//     console.log(this.name);
+//   },
+// };
+// person.greet();
+
+// const person = {
+//   age: 25,
+//   greet: () => {
+//     console.log(this.age);
+//   },
+// };
+
+// person.greet(); // Output: undefined
+
 const person = {
-  fullName: function () {
-    return this.firstName + " " + this.lastName;
+  age: 25,
+  greet: function () {
+    const innerFunction = () => {
+      console.log(this.age);
+    };
+    innerFunction();
   },
 };
-const person1 = {
-  firstName: "Mukit",
-  lastName: "Hossen",
-};
 
-console.log(person.fullName.call(person1));
+person.greet(); // Output: Mukit

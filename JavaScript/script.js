@@ -401,27 +401,27 @@
 // console.log(`The first Sumit ${firstSumitName} - index`);
 
 const stringArray = ["me", "hello", "love", "sentence"];
-// function longestString(arr) {
-//   let firstLength = 0;
-//   let longest;
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i].length > firstLength) {
-//       firstLength = arr[i].length;
-//       longest = arr[i];
-//     }
-//     console.log(longest);
-//   }
-// }
-// longestString(stringArray);
-
 function longestString(arr) {
-  let longestWord = "";
-  arr.forEach((element) => {
-    if (element.length > longestWord.length) {
-      longestWord = element;
+  let firstLength = 0;
+  let longest;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length > firstLength) {
+      firstLength = arr[i].length;
+      longest = arr[i];
     }
-  });
-  console.log(longestWord);
+  }
+  console.log(longest);
 }
-
 longestString(stringArray);
+
+// function longestString(arr) {
+//   let longestWord = "";
+//   arr.forEach((element) => {
+//     if (element.length > longestWord.length) {
+//       longestWord = element;
+//     }
+//   });
+//   console.log(longestWord);
+// }
+
+// longestString(stringArray);

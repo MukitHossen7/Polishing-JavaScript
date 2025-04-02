@@ -446,3 +446,13 @@
 
 // const trustyValue = mixedArr.filter((value) => !falsyArray.includes(value));
 // console.log(trustyValue);
+
+function passedValue(x, y) {
+  x = x * 5;
+  return x * y;
+}
+const a = 8;
+const b = 5;
+const value = passedValue(a, b);
+console.log(value);
+console.log(a);

@@ -394,8 +394,8 @@ const sentence =
 
 console.log(sentence);
 const arr = sentence.split(" ");
-const sumitCount = arr.filter((value) => value.includes("Sumit")).length;
+const sumitCount = arr.filter((value) => /sumit$/i.test(value)).length;
 console.log(`Sumit word have in the Sentences ${sumitCount}`);
 
-const firstSumitName = sentence.indexOf("Sumit");
+const firstSumitName = sentence.search(/sumit/i);
 console.log(`The first Sumit ${firstSumitName} - index`);

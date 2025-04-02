@@ -400,17 +400,20 @@
 // const firstSumitName = sentence.search(/sumit/i);
 // console.log(`The first Sumit ${firstSumitName} - index`);
 
-const stringArray = ["me", "hello", "love", "sentence"];
+const stringArray = ["me", "hello", "I love you", "love", "sentence"];
 function longestString(arr) {
   let firstLength = 0;
   let longest;
+  let longestWordIndex;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].length > firstLength) {
       firstLength = arr[i].length;
       longest = arr[i];
+      longestWordIndex = i;
     }
   }
   console.log(longest);
+  console.log(longestWordIndex);
 }
 longestString(stringArray);
 

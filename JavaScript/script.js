@@ -428,3 +428,21 @@ longestString(stringArray);
 // }
 
 // longestString(stringArray);
+
+const falsyArray = [false, 0, "", null, undefined, NaN];
+const mixedArr = [
+  "lws",
+  undefined,
+  "learn with sumit",
+  false,
+  "",
+  "apple",
+  40,
+  "k",
+  true,
+  "Thanks all",
+  NaN,
+];
+
+const trustyValue = mixedArr.filter((value) => !falsyArray.includes(value));
+console.log(trustyValue);

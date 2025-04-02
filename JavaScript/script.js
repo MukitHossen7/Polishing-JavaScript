@@ -400,22 +400,22 @@
 // const firstSumitName = sentence.search(/sumit/i);
 // console.log(`The first Sumit ${firstSumitName} - index`);
 
-const stringArray = ["me", "hello", "I love you", "love", "sentence"];
-function longestString(arr) {
-  let firstLength = 0;
-  let longest;
-  let longestWordIndex;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].length > firstLength) {
-      firstLength = arr[i].length;
-      longest = arr[i];
-      longestWordIndex = i;
-    }
-  }
-  console.log(longest);
-  console.log(longestWordIndex);
-}
-longestString(stringArray);
+// const stringArray = ["me", "hello", "I love you", "love", "sentence"];
+// function longestString(arr) {
+//   let firstLength = 0;
+//   let longest;
+//   let longestWordIndex;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].length > firstLength) {
+//       firstLength = arr[i].length;
+//       longest = arr[i];
+//       longestWordIndex = i;
+//     }
+//   }
+//   console.log(longest);
+//   console.log(longestWordIndex);
+// }
+// longestString(stringArray);
 
 // function longestString(arr) {
 //   let longestWord = "";
@@ -429,20 +429,20 @@ longestString(stringArray);
 
 // longestString(stringArray);
 
-const falsyArray = [false, 0, "", null, undefined, NaN];
-const mixedArr = [
-  "lws",
-  undefined,
-  "learn with sumit",
-  false,
-  "",
-  "apple",
-  40,
-  "k",
-  true,
-  "Thanks all",
-  NaN,
-];
+// const falsyArray = [false, 0, "", null, undefined, NaN];
+// const mixedArr = [
+//   "lws",
+//   undefined,
+//   "learn with sumit",
+//   false,
+//   "",
+//   "apple",
+//   40,
+//   "k",
+//   true,
+//   "Thanks all",
+//   NaN,
+// ];
 
-const trustyValue = mixedArr.filter((value) => !falsyArray.includes(value));
-console.log(trustyValue);
+// const trustyValue = mixedArr.filter((value) => !falsyArray.includes(value));
+// console.log(trustyValue);

@@ -389,13 +389,27 @@
 // console.log(mukit);
 // console.log(raje);
 
-const sentence =
-  "Learn with Sumit is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development, Learn with Sumit has all the tools you need to learn the newest and most popular technologies to covert you from a no stack to full stack developer. Learn with Sumit also deep dives into advanced topics using the latest best practices for you seasoned web developers.";
+// const sentence =
+//   "Learn with Sumit is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development, Learn with Sumit has all the tools you need to learn the newest and most popular technologies to covert you from a no stack to full stack developer. Learn with Sumit also deep dives into advanced topics using the latest best practices for you seasoned web developers.";
 
-console.log(sentence);
-const arr = sentence.split(" ");
-const sumitCount = arr.filter((value) => /sumit$/i.test(value)).length;
-console.log(`Sumit word have in the Sentences ${sumitCount}`);
+// console.log(sentence);
+// const arr = sentence.split(" ");
+// const sumitCount = arr.filter((value) => /sumit$/i.test(value)).length;
+// console.log(`Sumit word have in the Sentences ${sumitCount}`);
 
-const firstSumitName = sentence.search(/sumit/i);
-console.log(`The first Sumit ${firstSumitName} - index`);
+// const firstSumitName = sentence.search(/sumit/i);
+// console.log(`The first Sumit ${firstSumitName} - index`);
+
+const stringArray = ["me", "hello", "love", "sentence"];
+function longestString(arr) {
+  console.log(arr);
+  for (let i = 0; i < arr.length; i++) {
+    // console.log(arr[i]);
+    console.log(arr[0]);
+    if (arr[i].length > arr[0].length) {
+      console.log(arr[i]);
+    }
+    // console.log(arr[i].length);
+  }
+}
+longestString(stringArray);

@@ -378,13 +378,21 @@
 // mukit.greet();
 // raje.greet();
 
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-}
-const mukit = new Person("Mukit", 20);
-const raje = new Person("raju", 25);
-console.log(mukit);
-console.log(raje);
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+// const mukit = new Person("Mukit", 20);
+// const raje = new Person("raju", 25);
+// console.log(mukit);
+// console.log(raje);
+
+const sentence =
+  "Learn with Sumit is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development, Learn with Sumit has all the tools you need to learn the newest and most popular technologies to covert you from a no stack to full stack developer. Learn with Sumit also deep dives into advanced topics using the latest best practices for you seasoned web developers.";
+
+console.log(sentence);
+const arr = sentence.split(" ");
+const sumitCount = arr.filter((value) => value.includes("Sumit")).length;
+console.log(`Sumit word have in the Sentences ${sumitCount}`);

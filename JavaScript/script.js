@@ -521,10 +521,28 @@
 // const maxNumber = Math.max.apply(null, numbers);
 // console.log(maxNumber);
 
-let counter = 0;
+// let counter = 0;
+// function add() {
+//   let counter = 0;
+//   counter += 1;
+//   return counter;
+// }
+
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(counter);
+
 function add() {
   let counter = 0;
-  return (counter += 1);
+  function plus() {
+    counter += 1;
+  }
+  plus();
+  return counter;
 }
 
 console.log(add());
@@ -533,4 +551,3 @@ console.log(add());
 console.log(add());
 console.log(add());
 console.log(add());
-console.log(counter);

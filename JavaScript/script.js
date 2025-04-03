@@ -457,14 +457,27 @@
 // console.log(value);
 // console.log(a);
 
-function passedValue(x) {
-  x.num1 = x.num1 * 5;
-  return x.num1 * x.num2;
+// function passedValue(x) {
+//   x.num1 = x.num1 * 5;
+//   return x.num1 * x.num2;
+// }
+// let a = {
+//   num1: 8,
+//   num2: 10,
+// };
+// const value = passedValue(a);
+// console.log(value);
+// console.log(a);
+
+function greet() {
+  console.log("Hello Mukit");
 }
-let a = {
-  num1: 8,
-  num2: 10,
+greet();
+
+const person = {
+  name: "Mukit",
+  greet: function () {
+    console.log("Hello", this.name);
+  },
 };
-const value = passedValue(a);
-console.log(value);
-console.log(a);
+person.greet();

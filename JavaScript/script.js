@@ -469,15 +469,32 @@
 // console.log(value);
 // console.log(a);
 
-function greet() {
-  console.log("Hello Mukit");
-}
-greet();
+// function greet() {
+//   console.log("Hello Mukit");
+// }
+// greet();
+
+// const person = {
+//   name: "Mukit",
+//   greet: function () {
+//     console.log("Hello", this.name);
+//   },
+// };
+// person.greet();
 
 const person = {
-  name: "Mukit",
-  greet: function () {
-    console.log("Hello", this.name);
+  fullName: function (para1) {
+    console.log(
+      `First name is ${this.firstName} and last name is ${this.lastName}.he is ${para1}`
+    );
   },
 };
-person.greet();
+const person1 = {
+  firstName: "Mukit",
+  lastName: "Hossen",
+};
+const person2 = {
+  firstName: "Raju",
+  lastName: "Hossen",
+};
+person.fullName.call(person2, "well");

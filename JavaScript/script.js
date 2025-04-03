@@ -482,6 +482,23 @@
 // };
 // person.greet();
 
+// const person = {
+//   fullName: function (para1) {
+//     console.log(
+//       `First name is ${this.firstName} and last name is ${this.lastName}.he is ${para1}`
+//     );
+//   },
+// };
+// const person1 = {
+//   firstName: "Mukit",
+//   lastName: "Hossen",
+// };
+// const person2 = {
+//   firstName: "Raju",
+//   lastName: "Hossen",
+// };
+// person.fullName.call(person2, "well");
+
 const person = {
   fullName: function (para1) {
     console.log(
@@ -497,4 +514,4 @@ const person2 = {
   firstName: "Raju",
   lastName: "Hossen",
 };
-person.fullName.call(person2, "well");
+person.fullName.apply(person2, ["well"]);

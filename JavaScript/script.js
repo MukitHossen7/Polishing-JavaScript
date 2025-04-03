@@ -516,7 +516,21 @@
 // };
 // person.fullName.apply(person2, ["well"]);
 
-const numbers = [10, 50, 5, 90, 30];
+// const numbers = [10, 50, 5, 90, 30];
 
-const maxNumber = Math.max.apply(null, numbers);
-console.log(maxNumber);
+// const maxNumber = Math.max.apply(null, numbers);
+// console.log(maxNumber);
+
+let counter = 0;
+function add() {
+  let counter = 0;
+  return (counter += 1);
+}
+
+console.log(add());
+console.log(add());
+console.log(add());
+console.log(add());
+console.log(add());
+console.log(add());
+console.log(counter);

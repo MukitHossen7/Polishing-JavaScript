@@ -536,18 +536,49 @@
 // console.log(add());
 // console.log(counter);
 
-function add() {
-  let counter = 0;
-  function plus() {
-    counter += 1;
-  }
-  plus();
-  return counter;
-}
+// function add() {
+//   let counter = 0;
+//   function plus() {
+//     counter += 1;
+//   }
+//   plus();
+//   return counter;
+// }
 
-console.log(add());
-console.log(add());
-console.log(add());
-console.log(add());
-console.log(add());
-console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+
+// function outer() {
+//   let counter = 0;
+//   function inner() {
+//     counter = counter + 1;
+//     return counter;
+//   }
+//   return inner;
+// }
+// const add = outer();
+// console.dir(add);
+// console.log(add());
+// console.dir(add);
+// console.log(add());
+// console.log(add());
+// console.log(add());
+
+// console.log(this);
+// const name = "Ashikur";
+const person = {
+  name: "Mukit",
+  age: 25,
+  greet: function () {
+    const fullname = () => {
+      console.log(this.name);
+    };
+    fullname();
+  },
+};
+
+person.greet();

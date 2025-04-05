@@ -586,8 +586,10 @@
 function display(value) {
   console.log(value);
 }
-function add(x, y) {
+function add(x, y, callback) {
   const sum = x + y;
-  display(sum);
+  if (callback) {
+    callback(sum);
+  }
 }
-add(5, 10);
+add(5, 10, display);

@@ -570,15 +570,24 @@
 
 // console.log(this);
 // const name = "Ashikur";
-const person = {
-  name: "Mukit",
-  age: 25,
-  greet: function () {
-    const fullname = () => {
-      console.log(this.name);
-    };
-    fullname();
-  },
-};
+// const person = {
+//   name: "Mukit",
+//   age: 25,
+//   greet: function () {
+//     const fullname = () => {
+//       console.log(this.name);
+//     };
+//     fullname();
+//   },
+// };
 
-person.greet();
+// person.greet();
+
+function display(value) {
+  console.log(value);
+}
+function add(x, y) {
+  const sum = x + y;
+  display(sum);
+}
+add(5, 10);

@@ -583,13 +583,19 @@
 
 // person.greet();
 
-function display(value) {
-  console.log(value);
-}
-function add(x, y, callback) {
-  const sum = x + y;
-  if (callback) {
-    callback(sum);
-  }
-}
-add(5, 10, display);
+// function display(value) {
+//   console.log(value);
+// }
+// function add(x, y, callback) {
+//   const sum = x + y;
+//   if (callback) {
+//     callback(sum);
+//   }
+// }
+// add(5, 10, display);
+
+console.log("Hello 1");
+setTimeout(() => {
+  console.log("Hello 2");
+}, 2000);
+console.log("Hello 3");

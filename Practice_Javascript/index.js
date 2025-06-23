@@ -11,12 +11,12 @@
 // counter.increment(4);
 // counter.increment(5);
 
-let count = 0;
-const counter = (newCount) => {
-  return count + newCount;
-};
-console.log(counter(1));
-console.log(counter(2));
-console.log(counter(3));
-console.log(counter(4));
-console.log(counter(5));
+// let count = 0;
+// const counter = (newCount) => {
+//   return count + newCount;
+// };
+// console.log(counter(1));
+// console.log(counter(2));
+// console.log(counter(3));
+// console.log(counter(4));
+// console.log(counter(5));

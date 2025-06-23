@@ -11,8 +11,8 @@
 // counter.increment(4);
 // counter.increment(5);
 
+let count = 0;
 const counter = (newCount) => {
-  let count = 0;
   return count + newCount;
 };
 console.log(counter(1));
